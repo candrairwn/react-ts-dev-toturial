@@ -1,10 +1,13 @@
-import FilterableProducts from "@pages/FilterableProducts"
-import { PRODUCTS } from "./data/products/products"
+import { PRODUCTS } from './data/products/products'
+import FilterableProducts from '@pages/FilterableProducts'
 
 function App() {
-  return (
-    <FilterableProducts products={PRODUCTS} />
-  )
+  const { numberAlias }: { numberAlias?: string } = {}
+
+  const a = numberAlias
+  console.info(a)
+
+  return <FilterableProducts products={PRODUCTS} />
 }
 
 export default App
