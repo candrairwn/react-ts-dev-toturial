@@ -1,6 +1,6 @@
-import ProductTable from '@/components/ProductTable'
-import SearchBar from '@/components/SearchBar'
-import { Product } from '@/data/products/productsInterface'
+import ProductTable from 'components/ProductTable'
+import SearchBar from 'components/SearchBar'
+import { Product } from 'data/products/productsInterface'
 import { useState } from 'react'
 
 export default function FilterableProducts({ products }: { products: Array<Product> }): JSX.Element {

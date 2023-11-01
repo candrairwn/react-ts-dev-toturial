@@ -1,4 +1,4 @@
-import { Product } from '@/data/products/productsInterface'
+import { Product } from 'data/products/productsInterface'
 import ProductCategoryRow from './productsComponent/ProductCategoryRow'
 import ProductRow from './productsComponent/ProductRow'
 

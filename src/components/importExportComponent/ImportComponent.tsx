@@ -1,8 +1,5 @@
 import FirstComponent from 'components/firstComponent/FirstComponent'
 
-function App() {
-  // return <FilterableProducts products={PRODUCTS} />
+export default function ImportComponent(): JSX.Element {
   return <FirstComponent />
 }
-
-export default App
