@@ -1,5 +1,5 @@
-export function getImageUrl(person: { imageId: string }, size: string | number = 's') {
-  return `https://i.imgur.com/${person.imageId}${size}.jpg`
+export function getImageUrl(person: { imageId: string }, imageSize: 's' | 'm' = 's') {
+  return `https://i.imgur.com/${person.imageId}${imageSize}.jpg`
 }
 
 interface Person {
