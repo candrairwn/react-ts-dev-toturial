@@ -1,8 +1,8 @@
 import Avatar from './Avatar'
 import Card from './Card'
-import { Persons } from './Utils'
+import { Person } from './Utils'
 
-export default function Profile(): JSX.Element {
+export default function Profile({ Persons }: { Persons: Person[] }): JSX.Element {
   const AvatarRows: JSX.Element[] = []
 
   Persons.forEach((person): void | JSX.Element => {
